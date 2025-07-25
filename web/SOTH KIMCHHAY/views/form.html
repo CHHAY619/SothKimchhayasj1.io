@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/font.css" />
+  </head>
+  <body>
+    <center>
+      <form>
+        <h1>INPUT INFORMATION FORM</h1>
+        <label>Enter Username:</label>
+        <input type="text" placeholder="Please Input Your name" required />
+        <br />
+        <br />
+        <label>Enter Password:</label>
+        <input
+          type="password"
+          placeholder="Please Input Your Password "
+          required
+        /><br /><br />
+        <label>Enter Email:</label>
+        <input type="email" placeholder=" Please Input Your Email" required />
+        <br />
+        <br />
+        <label>Enter Age:</label>
+        <input type="number" placeholder="Please Input Your Age" required />
+        <br />
+        <br />
+
+        <!-- Radio Button -->>
+        <label>Gender:</label>
+        <label>
+          <input type="radio" name="gender" value="male" checked />Male
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            checked
+          />female </label
+        ><br /><br />
+        <!--checkbox-->
+        <label>Subject:</label>
+        <label><input type="checkbox" name="Subject" value="C#" /> C#</label>
+        <label
+          ><input type="checkbox" name="Subject" value="Java" /> Java</label
+        >
+        <label><input type="checkbox" name="Subject" value="PHP" /> PHP</label>
+        <label><input type="checkbox" name="Subject" value="C++" /> C++</label>
+        <label><input type="checkbox" name="Subject" value="A++" /> A++</label>
+        <label><input type="checkbox" name="Subject" value="AC" /> AC</label>
+        <label><input type="checkbox" name="Subject" value="DS" /> DS</label
+        ><br /><br />
+
+        <!-- Combo Box Select -->
+        <label>Choose a school:</label>
+        <select>
+          <option value="SETEC">SETEC</option>
+          <option value="RUPP">RUPP</option>
+          <option value="NUM">NUM</option>
+          <option value="NIE">NIE</option>
+        </select>
+        <br /><br />
+
+        <!-- Type Description-->
+        <label>Description:</label><br />
+        <textarea
+          rows="4"
+          cols="30"
+          placeholder="Write your comment here..."
+        ></textarea>
+
+        <br /><br /><input type="submit" value="Log In" />&nbsp;&nbsp;
+        <input type="reset" value="Clear" />
+      </form>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("../Fonts.html/Ubuntu-Bold.ttf");
+}
+@font-face {
+  font-family: Moul;
+  src: url("../Fonts.html/Moul-Regular.ttf");
+}
+@font-face {
+  font-family: SR;
+  src: url("../Fonts.html/Siemreap-Regular.ttf");
+}
+h1 {
+  font-size: 48px;
+  color: green;
+  font-family: Moul;
+}
+h2 {
+  font-size: 40px;
+  color: rgb(30, 30, 175);
+  font-family: Ubuntu;
+}
+p {
+  font-size: 28px;
+  color: black;
+  font-family: SR;
+}
+
